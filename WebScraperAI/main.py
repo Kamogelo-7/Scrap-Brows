@@ -18,11 +18,9 @@ controller = Controller(output_model=Posts)
 
 browser = Browser(
     config=BrowserConfig(
-        # Specify the path to your Chrome executable
         chrome_instance_path='C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
     )
 )
-# model="claude-3-5-sonnet-20240620",
 
 # Initialize the model
 llm = ChatAnthropic(
